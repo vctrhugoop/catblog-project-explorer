@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="app">
-      <header>
+      <header class="container">
         <img src="./assets/logo.svg" alt="Logo do site" />
         <form>
           <label for="search">Pesquise por artigos</label>
@@ -40,17 +40,18 @@
       <main>
         <figure>
           <img
+            class="img-main"
             src="https://images.unsplash.com/photo-1570458436416-b8fcccfe883f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gato sentado sobre um por do sol"
           />
         </figure>
-        <section>
+        <section class="container">
           <h1>Seriam os gatos astronautas?</h1>
           <div class="icons-wrapper">
-            <div class="icon-like">
+            <div class="icon">
               <i class="bx bx-like"></i>
             </div>
-            <div class="icon-dislike">
+            <div class="icon">
               <i class="bx bx-dislike"></i>
             </div>
           </div>
@@ -82,88 +83,91 @@
             que os gatos seriam seres interplanetários.
           </p>
         </section>
-        <section>
-          <h1>Artigos relacionados</h1>
-          <article>
-            <figure>
-              <img
-                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=2043&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Gato apoiado encarando"
-              />
-            </figure>
-            <figcaption>
-              <h4>Sábado preguiçoso</h4>
-              <p>
-                Descubra atividades interessantes para fazer com seu pet durante
-                os finais de semana
-              </p>
-            </figcaption>
-          </article>
-          <article>
-            <figure>
-              <img
-                src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?auto=format&fit=crop&q=80&w=2068&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Cestas com quatro gatos filhotes"
-              />
-            </figure>
-            <figcaption>
-              <h4>Balaio de gatos</h4>
-              <p>
-                Como evitar confusões entre seus gatíneos e acostumá-los desde
-                filhotes.
-              </p>
-            </figcaption>
-          </article>
-          <article>
-            <figure>
-              <img
-                src="https://images.unsplash.com/photo-1603326530308-cf8cb7f49649?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Gato sentado sobre uma parede com cores"
-              />
-            </figure>
-            <figcaption>
-              <h4>Cartela de cores</h4>
-              <p>
-                Seu gato é inverno intenso? Verão profundo? Descubra as cores
-                que mais combinam com seu bichano.
-              </p>
-            </figcaption>
-          </article>
-          <article>
-            <figure>
-              <img
-                src="https://images.unsplash.com/photo-1494256997604-768d1f608cac?auto=format&fit=crop&q=80&w=2129&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Gato coberto"
-              />
-            </figure>
-            <figcaption>
-              <h4>Os gatos sentem frio?</h4>
-              <p>
-                Preparem-se para a frente fria que vem para o país da melhor
-                maneira possível.
-              </p>
-            </figcaption>
-          </article>
-          <article>
-            <figure>
-              <img
-                src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&q=80&w=1992&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Gato filhote sentado"
-              />
-            </figure>
-            <figcaption>
-              <h4>Conheça o Moacir</h4>
-              <p>
-                Moacir é o gatinho da semana do nosso blog. Venha conhecer sua
-                história de superação.
-              </p>
-            </figcaption>
-          </article>
+        <section class="container">
+          <div class="article-wrapper">
+            <h1>Artigos relacionados</h1>
+              <article>
+                <figure>
+                  <img
+                    src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=2043&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Gato apoiado encarando"
+                  />
+                </figure>
+                <figcaption>
+                  <h4>Sábado preguiçoso</h4>
+                  <p>
+                    Descubra atividades interessantes para fazer com seu pet
+                    durante os finais de semana
+                  </p>
+                </figcaption>
+              </article>
+            </div>
+            <article>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?auto=format&fit=crop&q=80&w=2068&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Cestas com quatro gatos filhotes"
+                />
+              </figure>
+              <figcaption>
+                <h4>Balaio de gatos</h4>
+                <p>
+                  Como evitar confusões entre seus gatíneos e acostumá-los desde
+                  filhotes.
+                </p>
+              </figcaption>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1603326530308-cf8cb7f49649?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Gato sentado sobre uma parede com cores"
+                />
+              </figure>
+              <figcaption>
+                <h4>Cartela de cores</h4>
+                <p>
+                  Seu gato é inverno intenso? Verão profundo? Descubra as cores
+                  que mais combinam com seu bichano.
+                </p>
+              </figcaption>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1494256997604-768d1f608cac?auto=format&fit=crop&q=80&w=2129&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Gato coberto"
+                />
+              </figure>
+              <figcaption>
+                <h4>Os gatos sentem frio?</h4>
+                <p>
+                  Preparem-se para a frente fria que vem para o país da melhor
+                  maneira possível.
+                </p>
+              </figcaption>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&q=80&w=1992&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Gato filhote sentado"
+                />
+              </figure>
+              <figcaption>
+                <h4>Conheça o Moacir</h4>
+                <p>
+                  Moacir é o gatinho da semana do nosso blog. Venha conhecer sua
+                  história de superação.
+                </p>
+              </figcaption>
+            </article>
+          </div>
         </section>
       </main>
       <footer>
         <p>
-          © 2023 - Rocketseat Explorer | recriado por:
+          © 2023 - Recriado por
           <a href="https://github.com/vctrhugoop" target="_blank"
             >Victor Hugo</a
           >
