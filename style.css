@@ -117,7 +117,7 @@ article p {
  font-size: 1.4rem; 
 }
 
-figure img {
+article figure img {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
