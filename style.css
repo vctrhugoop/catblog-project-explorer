@@ -93,7 +93,7 @@ main {
 }
 
 article,
-section {
+aside {
   padding: 0 2.2rem;
 }
 
@@ -134,15 +134,15 @@ section {
   transform: scale(1.1);
 }
 
-.section-wrapper {
+.aside-wrapper {
   grid-area: aside;
 }
 
-.section-wrapper h2 {
+.aside-wrapper h2 {
   margin-bottom: 3rem;
 }
 
-.aside-wrapper {
+.aside-items {
   display: flex;
   gap: 1.6rem;
 
