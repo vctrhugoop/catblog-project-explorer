@@ -31,14 +31,15 @@ body {
 
 .container {
   display: grid;
-  grid-template-areas: 
-    "header"
-    "main"
-    "aside"
-    "footer";
+  grid-template-areas:
+        "header"
+        "main"
+        "aside"
+        "footer";
 }
 
 .header-wrapper {
+  width: 100%;
   grid-area: header;
   display: grid;
   grid-template-columns: max-content 1fr max-content;
@@ -185,3 +186,45 @@ aside {
   text-decoration: none;
 }
 
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-areas: 
+      "header header header"
+      "main main aside"
+      "footer footer footer";
+    row-gap: 4rem;
+    column-gap: 3rem; 
+    margin: auto;
+  } 
+
+  article, aside {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-wrapper {
+    padding-inline: 11.2rem;
+  }
+
+  .heading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main-wrapper {
+    max-width: 100%;
+    padding-left: 11.2rem;
+  }
+
+  .article-img img{
+    border-radius: 5px;
+  }
+
+  .aside-wrapper {
+    width: 100%;
+    padding-right: 11.2rem;
+  }
+
+}
