@@ -126,6 +126,22 @@ aside {
 }
 
 .icons-img {
+  width: 4rem;
+  height: 4rem;
+
+  background-color: var(--main-color);
+  color: var(--light-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  padding: 1.2rem;
+}
+
+.icons-img {
   cursor: pointer;
 
   transition: transform .2s ease;
