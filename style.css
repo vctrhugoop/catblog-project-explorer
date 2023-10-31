@@ -164,10 +164,10 @@ aside {
   gap: 1.6rem;
 
   margin-bottom: 3rem;
+  align-items: center;
 }
-
-.aside-wrapper img {
-  width: 15rem;
+.img {
+  max-width: 15rem;
 
   aspect-ratio: 16/9;
 
