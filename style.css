@@ -202,6 +202,24 @@ aside {
   text-decoration: none;
 }
 
+main, 
+article,
+.article-img, 
+.aside-items,
+.aside-wrapper {
+  --delay: 1s;
+  animation: item-appearance .4s var(--delay) backwards;
+}
+
+@keyframes item-appearance{
+  0% {
+      transform: scale(0);
+  }
+  50% {
+      transform: scale(1.15);
+  }
+}
+
 
 @media (min-width: 1024px) {
   .container {
